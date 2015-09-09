@@ -14,6 +14,7 @@ import javax.persistence.Table;
 @IdClass(PersonPK.class)
 public class Person implements Serializable {
 	
+	
 	@Id
 	@Column(name="namee")
 	private String name;

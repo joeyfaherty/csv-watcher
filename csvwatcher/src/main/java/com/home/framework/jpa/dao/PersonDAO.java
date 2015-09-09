@@ -14,6 +14,7 @@ public class PersonDAO {
 
      public void savePerson(Person person) {
     	 
+    	 
           factory = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
           EntityManager em = factory.createEntityManager();
           
